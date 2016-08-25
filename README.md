@@ -1,1 +1,0 @@
-# HQCode_2_August_2016
