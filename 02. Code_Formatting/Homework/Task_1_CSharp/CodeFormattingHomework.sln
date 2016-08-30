@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events", "CodeFormattingHomework\Events.csproj", "{4BDA8C53-6B98-4CAD-AF4B-2A8D07F372B4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events", "Events\Events.csproj", "{4BDA8C53-6B98-4CAD-AF4B-2A8D07F372B4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bunnies", "Bunnies\Bunnies.csproj", "{48E4AC00-0775-4432-9ACC-877BF6DDB826}"
 EndProject

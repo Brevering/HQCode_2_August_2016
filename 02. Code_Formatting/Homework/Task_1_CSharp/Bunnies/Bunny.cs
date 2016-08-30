@@ -7,13 +7,15 @@
     public class Bunny
     {
         public int Age { get; set; }
+
         public string Name { get; set; }
+
         public FurType FurType { get; set; }
 
         public void Introduce(IWriter writer)
         {            
-            writer.WriteLine($"{this.Name} - \"I am {this.Age} years old!\"");
-            writer.WriteLine($"{this.Name} - \"And I am {StringExtensions.SplitToSeparateWordsByUppercaseLetter(this.FurType.ToString())}");
+            writer.WriteLine($"{this.Name} - I am {this.Age} years old");
+            writer.WriteLine($"{this.Name} - And I am {StringExtensions.SplitToSeparateWordsByUppercaseLetter(this.FurType.ToString())}");
         }
 
         public override string ToString()
